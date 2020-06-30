@@ -11,7 +11,6 @@
     <modules>
         <module>ConfigServerApplication</module>
         <module>ConfigClientApplication</module>
-        <module>ConfigClientApplication</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>

@@ -1,6 +1,4 @@
 spring:
-  application:
-    name: config-service
   cloud:
     config:
       server:
@@ -8,6 +6,5 @@ spring:
           search-locations: file:${shared.config.path}/shared,classpath:/shared
   profiles:
     active: native
-
 server:
-  port: 8881
+  port: 8888
